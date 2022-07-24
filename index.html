@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+    <title>STAR WARS</title>
+  </head>
+  <body>
+    <header></header>
+    <nav class="nav_container">
+      <ul class="nav_ul">
+        <li class="nav_li">STAR WARS - HOME</li>
+        <li class="nav_li">
+          <a onclick="initCharacters()">CHARACTERS</a>
+        </li>
+        <li class="nav_li">
+          <a onclick="initFilms()">FILMS</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div id="characters_container" class="characters_container"></div>
+      <button class="buttom" onclick="nextCharacters()">More Characters</button>
+    </main>
+  </body>
+</html>
